@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.btn-shine{
+    text-shadow: rgb(61, 168, 255) 0px 0 15px;
+}
+
+.screen-bevel{
+    border: 3mm inset rgba(220, 53, 69, .6);
+}
+
+.button-bevel{
+    border: 1mm outset rgba(235, 60, 77, 0.6);
+}
