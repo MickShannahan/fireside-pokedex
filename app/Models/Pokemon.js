@@ -24,7 +24,7 @@ export default class Pokemon {
         template += `
         <h2 class=" col text-center rounded-bottom border-success border-bottom text-capitalize pb-2">${this.name}</h2>
         <img src="${this.img}" alt="pokemon img" class="img img-fluid">
-        <h5 class="p-2">${this.weight}g</h5>
+        <h5 class="p-2">${this.weight}kg</h5>
         <h5 class="border-top rounded-lg border-success p-3">Types: `
 
         this.types.forEach(type => template += `<span class=" border-left border-success pl-2 m-1 rounded text-success text-capitalize">${type.type.name} </span>`)
